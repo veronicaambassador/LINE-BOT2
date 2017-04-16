@@ -4,7 +4,7 @@ $access_token = '1rtphuwCd07x26RycF7MsBcvjlWeDzMB1NTlkVoh4+mS7r4sbn++VqxQu4r8VwQ
 
 $host = 'localhost:3306'; 
 $user = 'root'; 
-$pass = '';
+$password = '';
 $dbname = 'db_polling';
 $db = new PDO('mysql:host=' . $host . ';dbname=' . $dbname, $user, $password);
 
