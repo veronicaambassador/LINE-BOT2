@@ -14,4 +14,5 @@ else {
 echo "c";
 };
 
-echo $connet;
+echo $connect;
+echo "ok";
