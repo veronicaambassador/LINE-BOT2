@@ -10,3 +10,9 @@ if (!is_null($events['events'])) {
 	echo $events;
 
 }
+
+echo $content;
+echo $access_token;
+echo $events;
+echo "halo";
+
