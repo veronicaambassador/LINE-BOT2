@@ -10,3 +10,6 @@ $connect = mysql_connect($host, $user, $pass) or die(mysql_error());
 if ($connect){
 echo "a";
 };
+else {
+echo "c";
+};
