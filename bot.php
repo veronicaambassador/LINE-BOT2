@@ -6,13 +6,5 @@ $host = 'localhost';
 $user = 'root'; 
 $pass = '';
 $dbname = 'db_polling';
-$connect = mysql_connect($host, $user, $pass) or die(mysql_error());
-if ($connect){
-echo "a";
-};
-else {
-echo "c";
-};
 
-echo $connect;
 echo "ok";
