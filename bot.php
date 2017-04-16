@@ -11,8 +11,8 @@ if (!is_null($events['events'])) {
 
 }
 
-echo $content;
-echo $access_token;
-echo $events;
-echo "halo";
+echo ('<pre> print the json ');
+    print_r ($events);
+    echo ('</pre>');
 
+    echo '<br>output:</br>';
