@@ -11,8 +11,6 @@ if (!is_null($events['events'])) {
 
 }
 
-$data = json_decode(file_get_contents('php://input'), true);
-print_r($data);
-echo $data;
-
-echo file_get_contents('php://input');
+// at least the below code has to read above raw data
+echo $data= file_get_contents("php://input");
+var_dump($data); ?> 
