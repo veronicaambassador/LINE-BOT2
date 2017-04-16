@@ -15,7 +15,6 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			$nama = $event['source']['userId'];
-			$a= $event['source']['userId'];
 			
 			echo $event['message']['text'];
 			echo $event['replyToken'];
@@ -52,5 +51,3 @@ if (!is_null($events['events'])) {
 	}
 }
 echo "OK";
-echo $nama;
-echo $a
