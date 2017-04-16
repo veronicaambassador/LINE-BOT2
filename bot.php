@@ -13,3 +13,5 @@ echo "a";
 else {
 echo "c";
 };
+
+echo $connet;
