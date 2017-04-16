@@ -16,10 +16,9 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			
-			echo $text;
-			echo $replyToken;
-
 			
 		}
 	}
 }
+echo $text;
+echo $replyToken;
