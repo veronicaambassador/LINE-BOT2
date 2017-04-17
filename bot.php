@@ -1,6 +1,7 @@
 <?php
 $access_token = '1rtphuwCd07x26RycF7MsBcvjlWeDzMB1NTlkVoh4+mS7r4sbn++VqxQu4r8VwQzQxYmHqRZt5plxmjgCutvZZXAE47GOcH5QSmVrHgs0fF8gfNQHQDq/apLXuxR/7FsnaIdHR4CryyTC6lDpeEGOQdB04t89/1O/w1cDnyilFU=';
-file_put_contents('fb_response.txt', file_get_contents("php://input") . PHP_EOL, FILE_APPEND);
+$a = file_put_contents('fb_response.txt', file_get_contents("php://input") . PHP_EOL, FILE_APPEND);
+echo $a;
 
 
 // Get POST body content
