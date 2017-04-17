@@ -1,5 +1,12 @@
 <?php
 $access_token = '1rtphuwCd07x26RycF7MsBcvjlWeDzMB1NTlkVoh4+mS7r4sbn++VqxQu4r8VwQzQxYmHqRZt5plxmjgCutvZZXAE47GOcH5QSmVrHgs0fF8gfNQHQDq/apLXuxR/7FsnaIdHR4CryyTC6lDpeEGOQdB04t89/1O/w1cDnyilFU=';
+	$server = "mysql7.000webhost.com";
+	$user = "a8071550_root";
+	$password = "18Oktober1996.";
+	$database = "a8071550_super";
+
+	$status_koneksi = mysql_connect($server,$user,$password);
+	$status_db = mysql_select_db($database);
 
 // Get POST body content
 $content = file_get_contents('php://input');
