@@ -6,6 +6,5 @@ $host = 'localhost';
 $user = 'root'; 
 $password = '';
 $dbname = 'db_polling';
-$db = new PDO('mysql:host=' . $host . ';dbname=' . $dbname, $user, $password);
-
+$connect = mysql_connect($host, $user, $password) or die(mysql_error());
 echo "ok";
